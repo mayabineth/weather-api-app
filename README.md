@@ -1,4 +1,7 @@
 
 # weather app
 
-![image](https://user-images.githubusercontent.com/57454459/179365741-05294358-b3ed-4747-8f85-aaaf6b48a575.png)
+![image](https://user-images.githubusercontent.com/57454459/179365817-b1db5750-11d2-4dd9-84cf-8b97d4da83a1.png)
+
+
+
