@@ -1,0 +1,106 @@
+.home-page {
+  background-color: var(--clr-bcg);
+  min-height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 5%;
+}
+.search-form {
+  margin-bottom: 3rem;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 70rem;
+}
+.alert {
+  text-transform: uppercase;
+  color: #bb2525;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.25;
+}
+.form-input {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+  align-items: center;
+  background: #1e213a;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: var(--radius);
+  color: #e7e7eb;
+  letter-spacing: var(--spacing);
+  position: relative;
+  display: block;
+}
+::placeholder {
+  color: #e7e7eb;
+}
+.auto-search {
+  position: absolute;
+  cursor: pointer;
+  max-width: 70rem;
+  width: 70rem;
+  background: #e7e7eb;
+  border-radius: var(--radius);
+  letter-spacing: var(--spacing);
+  padding-left: 1rem;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+}
+.auto-search-item {
+  color: #100e1d;
+}
+.section-center {
+  margin-top: 1rem;
+}
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  color: #a09fb1;
+}
+.flex-row-5-items {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+.flex-column-5-items {
+  background-color: var(--clr-bcg);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+}
+.flex-column-5-items span {
+  color: var(--clr-span);
+}
+.text {
+  color: #e7e7eb;
+  display: flex;
+  justify-content: center;
+}
+.flex-header button {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #a09fb1;
+  transition: all 0.3s ease-out;
+}
+@media screen and (max-width: 768px) {
+  .flex-header button {
+    font-size: 10rem;
+  }
+  .flex-header h3 {
+    font-size: 1.1rem;
+  }
+}

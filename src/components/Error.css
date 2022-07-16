@@ -1,0 +1,10 @@
+.error-page {
+  background-color: #100e1d;
+  min-height: 100vh;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.error-section {
+  color: #e7e7eb;
+  text-align: center;
+}
