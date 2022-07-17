@@ -16,7 +16,7 @@ const Home = () => {
   );
   const dispatch = useDispatch();
 
-  const api = `NvwjI8lAIWmeFCQvqGGT0mxVJrQfNCXk`;
+  const api = `2f0EbQAklmLvjan1rnBAsgRSzTAwCsDK`;
   const search_url = `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${api}&q=${query}`;
   const five_days_url = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${id}?apikey=${api}`;
   const fav_url = `http://dataservice.accuweather.com/currentconditions/v1/${id}?apikey=${api}`;
@@ -162,7 +162,7 @@ const Home = () => {
           <div>
             <h3>{query}</h3>
           </div>
-          <div>
+          <div className="flex-header-buttons">
             <button onClick={() => dispatch(setUnit())}>
               {tempUnit === "C" ? <RiCelsiusFill /> : <RiFahrenheitFill />}
             </button>
