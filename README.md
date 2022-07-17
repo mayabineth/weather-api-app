@@ -3,7 +3,7 @@
 
 1. usage of react hooks, react-router-dom, redux
 2. usage of weather API
-3. 2 navigation links- weather and favorites
+3. two navigation links- weather and favorites
 4. the user is able to search for a city and save it to his favorites (saved locally)
 5. error handling
 6. dark/light modes
