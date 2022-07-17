@@ -116,11 +116,9 @@ const Home = () => {
     dispatch(setQuery(suggest.location));
     dispatch(setId(suggest.id));
     setSuggests([]);
-    // setColorFav("white");
   };
   const handleChangingLocation = (e) => {
     const newEdit = e.target.value;
-    // const pattern = `/^([a-zA-Z0-9, ]+$/`;
     if (/^[,A-Za-z\s]*$/.test(newEdit)) {
       dispatch(setQuery(e.target.value));
     } else {
