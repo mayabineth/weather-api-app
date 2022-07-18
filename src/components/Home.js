@@ -17,9 +17,9 @@ const Home = () => {
   const dispatch = useDispatch();
 
   const api = `2f0EbQAklmLvjan1rnBAsgRSzTAwCsDK`;
-  const search_url = `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${api}&q=${query}`;
-  const five_days_url = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${id}?apikey=${api}`;
-  const fav_url = `http://dataservice.accuweather.com/currentconditions/v1/${id}?apikey=${api}`;
+  const search_url = `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${api}&q=${query}`;
+  const five_days_url = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${id}?apikey=${api}`;
+  const fav_url = `https://dataservice.accuweather.com/currentconditions/v1/${id}?apikey=${api}`;
 
   const searchComplete = async (url) => {
     try {
