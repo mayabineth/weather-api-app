@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <Link to="/">Herolo Weather Task</Link>
+        <Link to="/">Weather App</Link>
         <ul className="nav-links">
           <li className={`${location === "/" ? "bold-link" : ""}`}>
             <Link to="/">home</Link>
